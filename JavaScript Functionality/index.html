@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Blog Posts</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <script>
+        // Приклад вхідних даних: масив блог-постів
+        const blogPosts = [
+            { title: "How to learn JavaScript", content: "Content of JS" },
+            { title: "Understanding CSS", content: "Content of CSS" },
+            { title: "HTML Basics", content: "Content of HTML" }
+        ];
+
+        // Викликаємо функцію сортування
+        const sortedPosts = sortBlogPosts(blogPosts);
+        console.log(sortedPosts);
+    </script>
+</body>
+</html>
